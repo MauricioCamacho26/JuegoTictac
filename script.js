@@ -61,7 +61,7 @@ function computerMove(difficulty) {
   }
 
   selectedCell.textContent = 'O';
-  checkWinner(false); // Llamada sin mensaje de victoria
+  checkWinner(false); 
 }
 
 function randomCell(availableCells) {
